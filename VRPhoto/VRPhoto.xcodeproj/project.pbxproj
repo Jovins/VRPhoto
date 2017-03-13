@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9BD61361E75B51200B546F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61351E75B51200B546F8 /* AppDelegate.swift */; };
+		B9BD613D1E75B51200B546F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BD613C1E75B51200B546F8 /* Assets.xcassets */; };
+		B9BD61401E75B51200B546F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BD613E1E75B51200B546F8 /* LaunchScreen.storyboard */; };
+		B9BD614B1E75B51200B546F8 /* VRPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD614A1E75B51200B546F8 /* VRPhotoTests.swift */; };
+		B9BD61561E75B51200B546F8 /* VRPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61551E75B51200B546F8 /* VRPhotoUITests.swift */; };
+		B9BD616B1E75B89000B546F8 /* MMPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61671E75B89000B546F8 /* MMPhotoView.swift */; };
+		B9BD616C1E75B89000B546F8 /* MMPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61681E75B89000B546F8 /* MMPhotoViewController.swift */; };
+		B9BD616D1E75B89000B546F8 /* Sphere.c in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61691E75B89000B546F8 /* Sphere.c */; };
+		B9BD617D1E75CAB800B546F8 /* MMScrollNavigationBar+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD617A1E75CAB800B546F8 /* MMScrollNavigationBar+Size.swift */; };
+		B9BD617E1E75CAB800B546F8 /* MMScrollNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD617B1E75CAB800B546F8 /* MMScrollNavigationController.swift */; };
+		B9BD617F1E75CAB800B546F8 /* MMScrollNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD617C1E75CAB800B546F8 /* MMScrollNavigationViewController.swift */; };
+		B9BD61811E75CAE600B546F8 /* MMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61801E75CAE600B546F8 /* MMMainViewController.swift */; };
+		B9BD61831E75CC1900B546F8 /* MMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61821E75CC1900B546F8 /* MMNavigationController.swift */; };
+		B9BD61851E75D7D500B546F8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BD61841E75D7D500B546F8 /* UIView+Extension.swift */; };
+		B9BD61871E75DB2800B546F8 /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9BD61861E75DB2800B546F8 /* Images.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BD61471E75B51200B546F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BD612A1E75B51200B546F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BD61311E75B51200B546F8;
+			remoteInfo = VRPhoto;
+		};
+		B9BD61521E75B51200B546F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BD612A1E75B51200B546F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BD61311E75B51200B546F8;
+			remoteInfo = VRPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9BD61321E75B51200B546F8 /* VRPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BD61351E75B51200B546F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9BD613C1E75B51200B546F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BD613F1E75B51200B546F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9BD61411E75B51200B546F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BD61461E75B51200B546F8 /* VRPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BD614A1E75B51200B546F8 /* VRPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhotoTests.swift; sourceTree = "<group>"; };
+		B9BD614C1E75B51200B546F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BD61511E75B51200B546F8 /* VRPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BD61551E75B51200B546F8 /* VRPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRPhotoUITests.swift; sourceTree = "<group>"; };
+		B9BD61571E75B51200B546F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BD61661E75B89000B546F8 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		B9BD61671E75B89000B546F8 /* MMPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPhotoView.swift; sourceTree = "<group>"; };
+		B9BD61681E75B89000B546F8 /* MMPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPhotoViewController.swift; sourceTree = "<group>"; };
+		B9BD61691E75B89000B546F8 /* Sphere.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sphere.c; sourceTree = "<group>"; };
+		B9BD616A1E75B89000B546F8 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		B9BD617A1E75CAB800B546F8 /* MMScrollNavigationBar+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MMScrollNavigationBar+Size.swift"; sourceTree = "<group>"; };
+		B9BD617B1E75CAB800B546F8 /* MMScrollNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMScrollNavigationController.swift; sourceTree = "<group>"; };
+		B9BD617C1E75CAB800B546F8 /* MMScrollNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMScrollNavigationViewController.swift; sourceTree = "<group>"; };
+		B9BD61801E75CAE600B546F8 /* MMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMainViewController.swift; sourceTree = "<group>"; };
+		B9BD61821E75CC1900B546F8 /* MMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMNavigationController.swift; sourceTree = "<group>"; };
+		B9BD61841E75D7D500B546F8 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B9BD61861E75DB2800B546F8 /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BD612F1E75B51200B546F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD61431E75B51200B546F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD614E1E75B51200B546F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9BD61291E75B51200B546F8 = {
+			isa = PBXGroup;
+			children = (
+				B9BD61341E75B51200B546F8 /* VRPhoto */,
+				B9BD61491E75B51200B546F8 /* VRPhotoTests */,
+				B9BD61541E75B51200B546F8 /* VRPhotoUITests */,
+				B9BD61331E75B51200B546F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BD61331E75B51200B546F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD61321E75B51200B546F8 /* VRPhoto.app */,
+				B9BD61461E75B51200B546F8 /* VRPhotoTests.xctest */,
+				B9BD61511E75B51200B546F8 /* VRPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BD61341E75B51200B546F8 /* VRPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD61861E75DB2800B546F8 /* Images.bundle */,
+				B9BD61651E75B89000B546F8 /* VRPhotoLib */,
+				B9BD61791E75CAB800B546F8 /* NavigationBarLib */,
+				B9BD61351E75B51200B546F8 /* AppDelegate.swift */,
+				B9BD61821E75CC1900B546F8 /* MMNavigationController.swift */,
+				B9BD61801E75CAE600B546F8 /* MMMainViewController.swift */,
+				B9BD61841E75D7D500B546F8 /* UIView+Extension.swift */,
+				B9BD613C1E75B51200B546F8 /* Assets.xcassets */,
+				B9BD613E1E75B51200B546F8 /* LaunchScreen.storyboard */,
+				B9BD61411E75B51200B546F8 /* Info.plist */,
+			);
+			path = VRPhoto;
+			sourceTree = "<group>";
+		};
+		B9BD61491E75B51200B546F8 /* VRPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD614A1E75B51200B546F8 /* VRPhotoTests.swift */,
+				B9BD614C1E75B51200B546F8 /* Info.plist */,
+			);
+			path = VRPhotoTests;
+			sourceTree = "<group>";
+		};
+		B9BD61541E75B51200B546F8 /* VRPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD61551E75B51200B546F8 /* VRPhotoUITests.swift */,
+				B9BD61571E75B51200B546F8 /* Info.plist */,
+			);
+			path = VRPhotoUITests;
+			sourceTree = "<group>";
+		};
+		B9BD61651E75B89000B546F8 /* VRPhotoLib */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD61691E75B89000B546F8 /* Sphere.c */,
+				B9BD616A1E75B89000B546F8 /* Sphere.h */,
+				B9BD61661E75B89000B546F8 /* Bridging-Header.h */,
+				B9BD61671E75B89000B546F8 /* MMPhotoView.swift */,
+				B9BD61681E75B89000B546F8 /* MMPhotoViewController.swift */,
+			);
+			path = VRPhotoLib;
+			sourceTree = "<group>";
+		};
+		B9BD61791E75CAB800B546F8 /* NavigationBarLib */ = {
+			isa = PBXGroup;
+			children = (
+				B9BD617A1E75CAB800B546F8 /* MMScrollNavigationBar+Size.swift */,
+				B9BD617B1E75CAB800B546F8 /* MMScrollNavigationController.swift */,
+				B9BD617C1E75CAB800B546F8 /* MMScrollNavigationViewController.swift */,
+			);
+			path = NavigationBarLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BD61311E75B51200B546F8 /* VRPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BD615A1E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhoto" */;
+			buildPhases = (
+				B9BD612E1E75B51200B546F8 /* Sources */,
+				B9BD612F1E75B51200B546F8 /* Frameworks */,
+				B9BD61301E75B51200B546F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRPhoto;
+			productName = VRPhoto;
+			productReference = B9BD61321E75B51200B546F8 /* VRPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BD61451E75B51200B546F8 /* VRPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BD615D1E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhotoTests" */;
+			buildPhases = (
+				B9BD61421E75B51200B546F8 /* Sources */,
+				B9BD61431E75B51200B546F8 /* Frameworks */,
+				B9BD61441E75B51200B546F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BD61481E75B51200B546F8 /* PBXTargetDependency */,
+			);
+			name = VRPhotoTests;
+			productName = VRPhotoTests;
+			productReference = B9BD61461E75B51200B546F8 /* VRPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9BD61501E75B51200B546F8 /* VRPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BD61601E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhotoUITests" */;
+			buildPhases = (
+				B9BD614D1E75B51200B546F8 /* Sources */,
+				B9BD614E1E75B51200B546F8 /* Frameworks */,
+				B9BD614F1E75B51200B546F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BD61531E75B51200B546F8 /* PBXTargetDependency */,
+			);
+			name = VRPhotoUITests;
+			productName = VRPhotoUITests;
+			productReference = B9BD61511E75B51200B546F8 /* VRPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BD612A1E75B51200B546F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = evenCoder;
+				TargetAttributes = {
+					B9BD61311E75B51200B546F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4K6LQRR5R;
+						ProvisioningStyle = Automatic;
+					};
+					B9BD61451E75B51200B546F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4K6LQRR5R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9BD61311E75B51200B546F8;
+					};
+					B9BD61501E75B51200B546F8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4K6LQRR5R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9BD61311E75B51200B546F8;
+					};
+				};
+			};
+			buildConfigurationList = B9BD612D1E75B51200B546F8 /* Build configuration list for PBXProject "VRPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BD61291E75B51200B546F8;
+			productRefGroup = B9BD61331E75B51200B546F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BD61311E75B51200B546F8 /* VRPhoto */,
+				B9BD61451E75B51200B546F8 /* VRPhotoTests */,
+				B9BD61501E75B51200B546F8 /* VRPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BD61301E75B51200B546F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BD61401E75B51200B546F8 /* LaunchScreen.storyboard in Resources */,
+				B9BD613D1E75B51200B546F8 /* Assets.xcassets in Resources */,
+				B9BD61871E75DB2800B546F8 /* Images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD61441E75B51200B546F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD614F1E75B51200B546F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BD612E1E75B51200B546F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BD61851E75D7D500B546F8 /* UIView+Extension.swift in Sources */,
+				B9BD617E1E75CAB800B546F8 /* MMScrollNavigationController.swift in Sources */,
+				B9BD61831E75CC1900B546F8 /* MMNavigationController.swift in Sources */,
+				B9BD617F1E75CAB800B546F8 /* MMScrollNavigationViewController.swift in Sources */,
+				B9BD616D1E75B89000B546F8 /* Sphere.c in Sources */,
+				B9BD61811E75CAE600B546F8 /* MMMainViewController.swift in Sources */,
+				B9BD617D1E75CAB800B546F8 /* MMScrollNavigationBar+Size.swift in Sources */,
+				B9BD61361E75B51200B546F8 /* AppDelegate.swift in Sources */,
+				B9BD616C1E75B89000B546F8 /* MMPhotoViewController.swift in Sources */,
+				B9BD616B1E75B89000B546F8 /* MMPhotoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD61421E75B51200B546F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BD614B1E75B51200B546F8 /* VRPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD614D1E75B51200B546F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BD61561E75B51200B546F8 /* VRPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BD61481E75B51200B546F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BD61311E75B51200B546F8 /* VRPhoto */;
+			targetProxy = B9BD61471E75B51200B546F8 /* PBXContainerItemProxy */;
+		};
+		B9BD61531E75B51200B546F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BD61311E75B51200B546F8 /* VRPhoto */;
+			targetProxy = B9BD61521E75B51200B546F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9BD613E1E75B51200B546F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BD613F1E75B51200B546F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BD61581E75B51200B546F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9BD61591E75B51200B546F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BD615B1E75B51200B546F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhoto/VRPhotoLib/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9BD615C1E75B51200B546F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRPhoto/VRPhotoLib/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9BD615E1E75B51200B546F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPhoto.app/VRPhoto";
+			};
+			name = Debug;
+		};
+		B9BD615F1E75B51200B546F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRPhoto.app/VRPhoto";
+			};
+			name = Release;
+		};
+		B9BD61611E75B51200B546F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRPhoto;
+			};
+			name = Debug;
+		};
+		B9BD61621E75B51200B546F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S4K6LQRR5R;
+				INFOPLIST_FILE = VRPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-evenCoder.VRPhotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VRPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BD612D1E75B51200B546F8 /* Build configuration list for PBXProject "VRPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BD61581E75B51200B546F8 /* Debug */,
+				B9BD61591E75B51200B546F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BD615A1E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BD615B1E75B51200B546F8 /* Debug */,
+				B9BD615C1E75B51200B546F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BD615D1E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BD615E1E75B51200B546F8 /* Debug */,
+				B9BD615F1E75B51200B546F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BD61601E75B51200B546F8 /* Build configuration list for PBXNativeTarget "VRPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BD61611E75B51200B546F8 /* Debug */,
+				B9BD61621E75B51200B546F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BD612A1E75B51200B546F8 /* Project object */;
+}
