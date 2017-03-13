@@ -13,9 +13,7 @@ class MMPhotoViewController: UIViewController {
     
     fileprivate var photoUrl: String?
     
-    fileprivate var titleStr: String?
-    
-    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, urlString: String?, title: String?) {
+    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, urlString: String?) {
         
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
@@ -25,7 +23,6 @@ class MMPhotoViewController: UIViewController {
         }
         
         photoUrl = url
-        titleStr = title
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -40,9 +37,6 @@ class MMPhotoViewController: UIViewController {
         photo.photoURL = photoUrl
         view.addSubview(photo)
         view.addSubview(closeButton)
-        
-        titleString.text = titleStr
-        view.addSubview(titleString)
     }
     
     @objc fileprivate func closeButtonClick() {
@@ -60,16 +54,6 @@ class MMPhotoViewController: UIViewController {
         btn.setImage(UIImage(named: "Images.bundle/" + "close"), for: UIControlState.normal)
         btn.addTarget(self, action: #selector(MMPhotoViewController.closeButtonClick), for: UIControlEvents.touchUpInside)
         return btn
-    }()
-    
-    fileprivate lazy var titleString: UILabel = {
-        
-        let label = UILabel()
-        label.textAlignment = NSTextAlignment.center
-        label.textColor = UIColor.white
-        label.font = UIFont.systemFont(ofSize: 16.0)
-        label.frame = CGRect(x: 10.0, y: 20.0, width: UIScreen.main.bounds.width - 10.0, height: 35)
-        return label
     }()
 }
 

@@ -81,8 +81,7 @@ extension MMMainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let filePath = Bundle.main.path(forResource: bundle + photos[indexPath.row], ofType: "jpg")!
-        let title = titles[indexPath.row]
-        let photoVC = MMPhotoViewController(nibName: nil, bundle: nil, urlString: filePath, title: title)
+        let photoVC = MMPhotoViewController(nibName: nil, bundle: nil, urlString: filePath)
         present(photoVC, animated: true, completion: nil)
     }
     
