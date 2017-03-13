@@ -10,7 +10,7 @@ VR全景图片浏览器，喜欢就点下star哈☺️
 
 在VRPhotoLib文件夹中有个文件Bridging-Header.h需要进行桥接.
 
-![桥接文件示意图]
+![桥接文件示意图](https://github.com/evenCoder/VRPhoto/blob/master/Images/qiaojiewenjian.png)
 
 如何使用，如下:
 
@@ -28,7 +28,6 @@ func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
 VR全景图片示例:
 
-![紫禁城]
+![紫禁城](https://github.com/evenCoder/VRPhoto/blob/master/Images/zijincheng.gif)
 
 ------
-
